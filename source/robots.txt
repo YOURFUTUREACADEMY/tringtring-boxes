@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /privacy-statement/
+Disallow: /algemene-voorwaarden/
