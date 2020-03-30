@@ -97,13 +97,53 @@ svg {
     font-weight: 800;
     padding:0;
 }
-.navlink:hover{
-        text-decoration: none;
-}
+
 .cross{
     width: 40%;
     align-self: center;
 }
 .navImg{
     width: 25%;
+}
+
+#navResponsive{
+    display: none ;
+}
+
+@media only screen
+  and (max-device-width: 480px)
+{
+
+        h1{
+            font-size: 0.8rem;
+        }
+        h2{
+            font-size: 0.5rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        .cross{
+            width: 25%;
+        }
+
+        .navLink{
+            font-size: 0.8rem;
+            /* font-weight: 800; */
+            padding:0;
+        }
+        .navImg{
+            width: 25%;
+        }
+       #navResponsive{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+        #navDesktop{
+            display: none;
+
+        }
+
+
 }

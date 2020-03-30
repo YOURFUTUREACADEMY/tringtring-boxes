@@ -7,20 +7,33 @@
         <title>HOME PAGE</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/style.css">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+
     </head>
 
     <body>
-        <!--navigatie-->
 
-        <nav class=" container mx-auto py-3">
+        <nav id="navDesktop" class="container mx-auto my-3">
             <div class="nav nav-bar align-items-end ">
-                <a class="col-sm-3 text-left navLink" href="#">Download App</a>
-                <a class="col-sm-6 text-center navLink" href="#"><img class="navImg" src="img/headerLogo_placeH.png"
-                        alt=""></a>
-                <a class="col-sm-3 text-right navLink" href="#">Contact</a>
+                <a class="col-sm-3 text-left navLink" href="#downloadApp">Download App</a>
+                <a class="col-sm-6 text-center navLink" href="#crossCards"><img class="navImg" 4
+                        src="img/headerLogo_placeH.png" alt=""></a>
+                <a class="col-sm-3 text-right navLink" href="#contact">Contact</a>
             </div>
+        </nav>
+
+        <!--navigatie-->
+        <nav id="navResponsive" class="row">
+            <div class="col-12 text-center">
+                <a class href="#crossCards"><img class="navImg" src="img/headerLogo_placeH.png" alt=""></a>
+            </div>
+
+            <div class="col text-center">
+                <a class="col navLink" href="#downloadApp">Download App</a>
+                <a class="col navLink offset-4" href="#contact">Contact</a>
+            </div>
+
 
         </nav>
 
@@ -32,9 +45,12 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="0"
                             class="active"></li>
-                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="1">
+                        </li>
+                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="2">
+                        </li>
+                        <li data-target="#carouselExampleIndicators" class="circle_indicator" data-slide-to="3">
+                        </li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active flex">
@@ -191,8 +207,8 @@
 
                         <div class="container mt-3">
                             <div class="row">
-                                <div class="media-body my-auto mr-5 ml-5">
-                                    <h2>Food Market Amsterdam</h2>
+                                <div class=" media-body my-auto mr-5 ml-5">
+                                    <h2>help de Amsterdamse horeca door de crisis </h2>
                                     <p>Krijg toegang tot de grootste markt van
                                         Amsterdam: de Centrale Markthallen, dé
                                         plek waar chefkoks van de meest
@@ -313,12 +329,13 @@
                                     </div>
                                 </div>
                                 <div class="media-body my-auto mr-5 ml-5">
-                                    <h2>Food Market Amsterdam</h2>
+                                    <h2 class="extra-style-AmsterdamCross">Met deze app </h2>
                                     <p>Krijg toegang tot de grootste markt van
-                                        Amsterdam: de Centrale Markthallen, dé
-                                        plek waar chefkoks van de meest
-                                        toonaangevende restaurants hun
-                                        inkopen doen!
+                                        Kies eenvoudig tussen de recepten van
+                                        de chefs. Na het plaatsen van je
+                                        bestelling gaan we direct voor je aan de
+                                        slag en ontvang je de ingrediënten
+                                        gewoon bij je thuis.
                                     </p>
                                     <button type="button" href="#" class="btn extra-style-red btn-sm">Krijg
                                         toegang</button>
@@ -356,7 +373,7 @@
 
 
 
-        <footer class="page-footer style-footer pt-4">
+        <footer id="contact" class="page-footer style-footer pt-4">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
                     <div class="col-md- mb-md-1 ml-2">
