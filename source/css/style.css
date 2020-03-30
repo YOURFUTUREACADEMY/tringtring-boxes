@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('/source/fonts/Avenir.ttc/');
+}
+
+@font-face {
+    font-family: 'VLNL-Berlagebrug-Gietijzer';
+    src: url('/source/fonts/VLNL\ Berlagebrug\ Gietijzer.ttf');
+}
+
+h1, h2, h3, h4, h5, button {
+    font-family: 'VLNL-Berlagebrug-Gietijzer';
+    color: #231e1e;
+}
+
+a, p, li {
+    font-family: 'Avenir';
+    color: #5a5a5a;
+    font-size: 1.5rem;
+}
+
+.extra-style-AmsterdamCross {
+    text-align: center;
+    color: #6e0f0a;
+}
+
+.extra-style-red {
+    background: #ff2d0a;
+    color: white;
+    padding: 15px;
+}
+.extra-style-store {
+    background: #5a5a5a;
+}
+.circle_indicator {
+    border-radius: 100%;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #231e1e !important;
+}
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    color: #231e1e;
+}
