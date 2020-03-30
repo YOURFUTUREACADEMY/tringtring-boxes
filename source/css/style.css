@@ -1,34 +1,43 @@
 @font-face {
     font-family: 'Avenir';
-    src: url('/source/fonts/Avenir.ttc/');
+    src: url('/fonts/AvenirLTStd-Book.otf');
 }
 
 @font-face {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
-    src: url('/source/fonts/VLNL\ Berlagebrug\ Gietijzer.ttf');
+    src: url('/fonts/VLNL-Berlagebrug-Gietijzer.ttf');
+}
+body {
+    font-family: 'Avenir';
+    color: #5a5a5a;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, button {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
     color: #231e1e;
 }
+
 a {
     color: white;
     font-family: 'Avenir';
     margin: 0;
     padding: 0;
 }
-p, li {
-    font-family: 'Avenir';
-    color: #5a5a5a;
-    font-size: 1.5rem;
+
+svg {
+    width: 25%;
+    margin-right: 1%!important;
+}
+.card{
+    border: none;
 }
 .extra-style-AmsterdamCross {
     text-align: center;
-    width: 60%;
     color: #6e0f0a;
-}
+    /* height: 10vh; */
 
+}
 .extra-style-red {
     background: #ff2d0a;
     color: white;
@@ -73,13 +82,27 @@ p, li {
     height: 20px !important;
     background-color: #231e1e !important;
 }
-svg {
-    width: 25%;
-    margin-right: 1%!important;
-}
+
 .carousel-caption {
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
     color: #231e1e;
+}
+.navLink{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.navlink:hover{
+        text-decoration: none;
+}
+.cross{
+    width: 40%;
+    align-self: center;
+}
+.navImg{
+    width: 25%;
 }
