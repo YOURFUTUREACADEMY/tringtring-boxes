@@ -7,13 +7,19 @@
     font-family: 'VLNL-Berlagebrug-Gietijzer';
     src: url('/fonts/VLNL-Berlagebrug-Gietijzer.ttf');
 }
+
 body {
     font-family: 'Avenir';
     color: #5a5a5a;
     font-size: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
     color: #231e1e;
 }
@@ -29,15 +35,17 @@ svg {
     width: 25%;
     margin-right: 1%!important;
 }
-.card{
+
+.card {
     border: none;
 }
+
 .extra-style-AmsterdamCross {
     text-align: center;
     color: #6e0f0a;
     /* height: 10vh; */
-
 }
+
 .extra-style-red {
     background: #ff2d0a;
     color: white;
@@ -45,10 +53,12 @@ svg {
     font-size: 1.1rem;
     border-radius: 8px;
 }
+
 .extra-style-store {
     background: #d7e0e5;
     padding: 5%;
 }
+
 .extra-style-logos {
     width: 25%;
     margin: auto auto;
@@ -56,26 +66,31 @@ svg {
     padding: 5%;
     border-radius: 15%;
 }
+
 .storelogos {
     margin: auto auto;
     width: 60%;
     justify-content: space-around;
 }
+
 .extra-style-storelogos {
     width: 40%;
     margin-top: 5%
 }
+
 .style-footer {
     background: #ff2d0a;
     padding-bottom: 1%;
-    padding-top:2;
+    padding-top: 2;
 }
+
 .extra-style-footer {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
     margin: 0;
 }
+
 .circle_indicator {
     border-radius: 100%;
     width: 20px !important;
@@ -89,61 +104,60 @@ svg {
     transform: translateY(-50%);
     color: #231e1e;
 }
-.navLink{
+
+.navLink {
     text-decoration: none;
     text-transform: uppercase;
     color: #5a5a5a;
     font-size: 1.5rem;
     font-weight: 800;
-    padding:0;
+    padding: 0;
 }
 
-.cross{
+.cross {
     width: 40%;
     align-self: center;
 }
-.navImg{
+
+.navImg {
     width: 25%;
 }
 
-#navResponsive{
-    display: none ;
+#navDesktop {
+    display: block;
 }
 
-@media only screen
-  and (max-device-width: 480px)
-{
+#navResponsive {
+    display: none;
+}
 
-        h1{
-            font-size: 0.8rem;
-        }
-        h2{
-            font-size: 0.5rem;
-        }
-        h3{
-            font-size: 1rem;
-        }
-        .cross{
-            width: 25%;
-        }
-
-        .navLink{
-            font-size: 0.8rem;
-            /* font-weight: 800; */
-            padding:0;
-        }
-        .navImg{
-            width: 25%;
-        }
-       #navResponsive{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-        }
-        #navDesktop{
-            display: none;
-
-        }
-
-
+@media only screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 0.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .cross {
+        width: 25%;
+    }
+    .navLink {
+        font-size: 0.8rem;
+        /* font-weight: 800; */
+        padding: 0;
+    }
+    .navImg {
+        width: 25%;
+    }
+    #navResponsive {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    #navDesktop {
+        display: none;
+    }
 }
