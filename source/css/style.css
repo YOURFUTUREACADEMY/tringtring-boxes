@@ -131,6 +131,14 @@ svg {
     display: none;
 }
 
+.last-resp {
+    order: 12
+}
+
+.first-resp {
+    order: 1;
+}
+
 @media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 0.8rem;
@@ -159,5 +167,14 @@ svg {
     }
     #navDesktop {
         display: none;
+    }
+    .last-resp {
+        order: 1;
+    }
+    .first-resp {
+        order: 12;
+    }
+    .sectionH2 {
+        font-size: 1.5rem;
     }
 }
