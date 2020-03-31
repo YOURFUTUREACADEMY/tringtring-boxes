@@ -19,6 +19,7 @@ h2,
 h3,
 h4,
 h5,
+.sectionH2,
 button {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
     color: #231e1e;
@@ -191,5 +192,16 @@ svg {
     }
     .sectionH2 {
         font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .storelogos{
+        width: 75%;
+        padding: 0;
+    }
+    .extra-style-logos {
+        width: 50%;
+    }
+    .extra-style-storelogos {
+        width: 100%;
     }
 }
