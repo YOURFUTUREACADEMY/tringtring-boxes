@@ -146,6 +146,15 @@ svg {
     order: 1;
 }
 
+.iosLogo {
+    margin-right: 1rem;
+}
+
+.extra-style-storelogos {
+    width: 80%;
+    height: auto;
+}
+
 @media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 0.8rem;
@@ -207,6 +216,9 @@ svg {
     .extra-style-storelogos {
         width: 50%;
         height: auto;
+    }
+    .iosLogo {
+        margin-right: 0;
     }
 }
 
