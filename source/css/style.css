@@ -133,24 +133,6 @@ svg {
     padding: 0;
 }
 
-.cross {
-    width: 40%;
-    align-self: center;
-}
-
-.navImg {
-    width: 25%;
-}
-
-#navDesktop {
-    display: block;
-    padding: 0;
-}
-
-#navResponsive {
-    display: none;
-}
-
 .last-resp {
     order: 12
 }
@@ -175,6 +157,28 @@ svg {
 .wideContainer {
     max-width: 1280px;
     /* height: 720px; */
+}
+
+.cross {
+    width: 5rem;
+    align-self: center;
+}
+
+.navImg {
+    width: 25%;
+}
+
+#crossCards {
+    width: 50%;
+}
+
+#navDesktop {
+    display: block;
+    padding: 0;
+}
+
+#navResponsive {
+    display: none;
 }
 
 @media only screen and (max-device-width: 480px) {
