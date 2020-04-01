@@ -25,6 +25,10 @@ button {
     color: #231e1e;
 }
 
+.white {
+    color: #fff;
+}
+
 button a:hover {
     color: #231e1e;
     text-decoration: none;
@@ -102,7 +106,7 @@ svg {
     border-radius: 100%;
     width: 20px !important;
     height: 20px !important;
-    background-color: #231e1e !important;
+    background-color: #fff !important;
 }
 
 .carousel-caption {
