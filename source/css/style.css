@@ -206,7 +206,8 @@ svg {
         width: 50%;
     }
     .extra-style-storelogos {
-        width: 50%;
+        width: 75%;
+        height: auto;
     }
 }
 
