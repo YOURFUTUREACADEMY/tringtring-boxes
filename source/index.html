@@ -370,8 +370,6 @@
     <script src="js/platform.js"></script>
     <script>
         let os = platform.os.family;
-        // alert(os);
-        // document.getElementById('plat').innerHTML = os
         console.log(os);
         switch (os) {
             case "Android":
@@ -390,6 +388,19 @@
         }
     </script>
     <!-- OS bepalen om de juist store te laten zien -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162437446-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162437446-1');
+    </script>
 
 </body>
 
