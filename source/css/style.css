@@ -166,7 +166,7 @@ svg {
         font-size: 1rem;
     }
     .cross {
-        width: 25%;
+        width: 10%;
     }
     .navLink {
         font-size: 0.8rem;
@@ -219,6 +219,9 @@ svg {
     }
     .iosLogo {
         margin-right: 0;
+    }
+    .respMT {
+        margin-top: 2rem !important;
     }
 }
 
