@@ -120,7 +120,7 @@ svg {
     text-decoration: none;
     text-transform: uppercase;
     color: #5a5a5a;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
     padding: 0;
 }
@@ -136,6 +136,7 @@ svg {
 
 #navDesktop {
     display: block;
+    padding: 0;
 }
 
 #navResponsive {
@@ -161,6 +162,11 @@ svg {
 
 .appBtn {
     margin-top: 1rem;
+}
+
+.wideContainer {
+    max-width: 1280px;
+    /* height: 720px; */
 }
 
 @media only screen and (max-device-width: 480px) {
