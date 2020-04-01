@@ -255,6 +255,15 @@ svg {
         width: 7.5px !important;
         height: 7.5px !important;
     }
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption h2 {
+        font-size: 0.9rem;
+    }
+    #crossCards {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-device-width:481px) and (max-device-width: 768px) {
