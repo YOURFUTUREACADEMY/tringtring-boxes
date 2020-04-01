@@ -222,6 +222,12 @@ svg {
     }
     .respMT {
         margin-top: 2rem !important;
+        text-align: center;
+        font-size: smaller;
+    }
+    .circle_indicator {
+        width: 7.5px !important;
+        height: 7.5px !important;
     }
 }
 
