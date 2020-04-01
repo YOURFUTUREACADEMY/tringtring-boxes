@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Avenir';
-    src: url('./fonts/AvenirLTStd-Book.otf');
+    src: url('../fonts/AvenirLTStd-Book.otf');
 }
 
 @font-face {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
-    src: url('./fonts/VLNL-Berlagebrug-Gietijzer.ttf');
+    src: url('../fonts/VLNL-Berlagebrug-Gietijzer.ttf');
 }
 
 body {
