@@ -24,6 +24,10 @@ button {
     font-family: 'VLNL-Berlagebrug-Gietijzer';
     color: #231e1e;
 }
+button a:hover {
+    color: #231e1e;
+    text-decoration: none; 
+}
 
 a {
     color: white;
