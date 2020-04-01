@@ -25,6 +25,11 @@ button {
     color: #231e1e;
 }
 
+.carousel-caption {
+    right: 5%;
+    left: 5%;
+}
+
 .carousel-caption h1 {
     font-size: 3.2rem;
 }
@@ -259,7 +264,7 @@ svg {
         font-size: 1.2rem;
     }
     .carousel-caption h2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     #crossCards {
         width: 100%;
