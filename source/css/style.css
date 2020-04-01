@@ -155,6 +155,10 @@ svg {
     height: auto;
 }
 
+.appBtn {
+    margin-top: 1rem;
+}
+
 @media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 0.8rem;
