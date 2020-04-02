@@ -6,7 +6,7 @@ function getAppLink(type) {
             appLink[i].href = "https://apps.apple.com/app/id1505493471";
         }
         if (type == "android") {
-            appLink[i].href = "https://play.google.com";
+            appLink[i].href = "https://play.google.com/store/apps/details?id=nl.tringtring.bestellen.foodmarketamsterdam";
         }
     }
 }
