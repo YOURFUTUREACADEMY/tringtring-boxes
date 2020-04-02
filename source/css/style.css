@@ -204,6 +204,7 @@
  .squareImg {
      height: 714px;
      background-size: cover;
+     /* background-repeat: no-repeat; */
  }
  
  .maY22 {
@@ -257,7 +258,10 @@
  /* Carrousel 4 TODO */
  
  #cImage4-0 {
-     background-image: url('../img/carrousel-3/Altstaandlogo.jpg');
+     background-image: url('../img/carrousel-4/app.jpg');
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
  }
  
  #cImage4-1 {
