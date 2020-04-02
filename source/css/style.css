@@ -11,12 +11,11 @@
 body {
     font-family: 'Avenir';
     color: #5a5a5a;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 .sectionH2,
@@ -25,17 +24,26 @@ button {
     color: #231e1e;
 }
 
+.sectionH2{
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
 .carousel-caption {
     right: 5%;
     left: 5%;
+     top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    color: #231e1e;
 }
 
 .carousel-caption h1 {
-    font-size: 3.2rem;
+    font-size: 2.1em;
 }
 
 .carousel-caption h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .white {
@@ -122,12 +130,6 @@ svg {
     background-color: #fff !important;
 }
 
-.carousel-caption {
-    top: 50%;
-    bottom: auto;
-    transform: translateY(-50%);
-    color: #231e1e;
-}
 
 .navLink {
     text-decoration: none;
@@ -151,7 +153,7 @@ svg {
 }
 
 .extra-style-storelogos {
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 
@@ -162,13 +164,9 @@ svg {
 
 }
 
-.container-fluid{
-padding:0 10%;
-height: 850px;
-margin:2rem 0;
-}
+
 .wideContainer {
-    max-width: 1280px;
+    max-width: 1000px;
     /* height: 720px; */
 }
 
@@ -182,7 +180,7 @@ margin:2rem 0;
 }
 
 #crossCards {
-    width: 50%;
+    width: 40%;
 }
 
 #navDesktop {
@@ -194,13 +192,23 @@ margin:2rem 0;
     display: none;
 }
 .squareImg{
+
       height:714px;
       background-size: cover;
 }
+.maY22{
+    padding-top:2.21em!important;
+}
 
+.pl-6{
+    padding-left:8% !important;
+}
+.pr-6{
+     padding-right: 8% !important;;
+}
 /* Carrousel 2 TODO */
 #cImage2-0 {
-     background-image: url('../img/fotoVerticaal_placeH.png');
+ background-image: url('../img/carrousel-3/Altstaandlogo.jpg');
 }
 
 #cImage2-1 {
@@ -217,23 +225,23 @@ margin:2rem 0;
 
 /* Carrousel 3 */
 #cImage3-1 {
-    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+    background-image: url('../img/carrousel-3/Altstaandlogo.jpg');
 }
 #cImage3-0 {
-    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+    background-image: url('../img/carrousel-3/Moslogostaand1.jpg');
 }
 #cImage3-0 {
-    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+    background-image: url('../img/carrousel-3/Pekellogostaand1.jpg');
 }
 #cImage3-0 {
-    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+    background-image: url('../img/carrousel-3/Toslogostaand1.jpg');
 }
 /* Carrousel 3 */
 
 
 /* Carrousel 4 TODO */
 #cImage4-0 {
- background-image: url('../img/fotoVerticaal_placeH.png');
+  background-image: url('../img/carrousel-3/Altstaandlogo.jpg');
 }
 
 #cImage4-1 {
@@ -248,7 +256,9 @@ margin:2rem 0;
 }
 /* Carrousel 4 TODO */
 
-
+   .respHide{
+        display: block;
+    }
 @media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 1.2rem;
@@ -334,6 +344,9 @@ margin:2rem 0;
     }
     .squareImg {
         height: 300px;
+    }
+    .respHide{
+        display: none;
     }
 }
 
