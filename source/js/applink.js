@@ -2,8 +2,6 @@ const appLink = document.querySelectorAll('.application');
 
 function getAppLink(type) {
     for (i = 0; i < appLink.length; i++) {
-
-
         switch (type) {
             case 'apple':
                 appLink[i].href = 'https://apps.apple.com/app/id1505493471';
