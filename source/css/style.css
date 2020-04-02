@@ -157,8 +157,16 @@ svg {
 
 .appBtn {
     margin-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+
 }
 
+.container-fluid{
+padding:0 10%;
+height: 850px;
+margin:2rem 0;
+}
 .wideContainer {
     max-width: 1280px;
     /* height: 720px; */
@@ -185,6 +193,61 @@ svg {
 #navResponsive {
     display: none;
 }
+.squareImg{
+      height:714px;
+      background-size: cover;
+}
+
+/* Carrousel 2 TODO */
+#cImage2-0 {
+     background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage2-1 {
+    background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage2-2 {
+    background-image: url('../img/fotoVerticaal_placeH.png');
+}
+#cImage2-3 {
+  background-image: url('../img/fotoVerticaal_placeH.png');
+}
+/* Carrousel 2 TODO */
+
+/* Carrousel 3 */
+#cImage3-1 {
+    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+}
+#cImage3-0 {
+    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+}
+#cImage3-0 {
+    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+}
+#cImage3-0 {
+    background-image: url('../img/carrousel-3/Box_4.2.jpg');
+}
+/* Carrousel 3 */
+
+
+/* Carrousel 4 TODO */
+#cImage4-0 {
+ background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage4-1 {
+ background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage4-2 {
+ background-image: url('../img/fotoVerticaal_placeH.png');
+}
+#cImage4-3 {
+   background-image: url('../img/fotoVerticaal_placeH.png');
+}
+/* Carrousel 4 TODO */
+
 
 @media only screen and (max-device-width: 480px) {
     h1 {
@@ -268,6 +331,9 @@ svg {
     }
     #crossCards {
         width: 100%;
+    }
+    .squareImg {
+        height: 300px;
     }
 }
 
