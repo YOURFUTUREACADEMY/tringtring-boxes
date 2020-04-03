@@ -258,22 +258,31 @@
      /* Carrousel 4 TODO */
      
      #cImage4-0 {
-         background-image: url('../img/carrousel-4/app.jpg');
+         background-image: url('../img/carrousel-4/zagtamsterdamproducts.jpg');
          background-position: center;
          background-size: contain;
          background-repeat: no-repeat;
      }
      
      #cImage4-1 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
+         background-image: url('../img/carrousel-4/leveranciers.jpg');
+         background-position: center;
+         background-size: contain;
+         background-repeat: no-repeat;
      }
      
      #cImage4-2 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
+         background-image: url('../img/carrousel-4/leverancierproduct.jpg');
+         background-position: center;
+         background-size: contain;
+         background-repeat: no-repeat;
      }
      
      #cImage4-3 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
+         background-image: url('../img/carrousel-4/zagtamsterdamproducts.jpg');
+         background-position: center;
+         background-size: contain;
+         background-repeat: no-repeat;
      }
      /* Carrousel 4 TODO */
      
