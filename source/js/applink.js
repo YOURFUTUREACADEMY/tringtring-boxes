@@ -17,6 +17,5 @@ function getAppLink(type) {
                 appLink[i].href = '#downloadApp';
                 break;
         }
-
     }
 }
