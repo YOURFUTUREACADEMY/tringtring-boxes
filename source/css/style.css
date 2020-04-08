@@ -289,8 +289,15 @@
      
      .pr-6 {
          padding-right: 8% !important;
-         ;
      }
+     /* CSS voor voorwaarden en privacy */
+     
+     .voorwaarden,
+     .privacy {
+         width: 80%;
+         margin: 0 auto;
+     }
+     /* CSS voor voorwaarden en privacy */
      
      @media only screen and (max-device-width: 480px) {
          h1 {
