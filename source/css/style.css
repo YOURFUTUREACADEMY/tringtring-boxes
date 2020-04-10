@@ -297,6 +297,30 @@
          width: 80%;
          margin: 0 auto;
      }
+     
+     .artikelitem {
+         color: #5a5a5a
+     }
+     
+     ol.alpha {
+         list-style-type: lower-alpha;
+     }
+     
+     ol.alphaHaak {
+         counter-reset: list;
+     }
+     
+     ol.alphaHaak>li {
+         list-style: none;
+         position: relative;
+     }
+     
+     ol.alphaHaak>li:before {
+         counter-increment: list;
+         content: counter(list, lower-alpha) ") ";
+         position: absolute;
+         left: -1.1em;
+     }
      /* CSS voor voorwaarden en privacy */
      
      @media only screen and (max-device-width: 480px) {
@@ -406,6 +430,10 @@
          }
          .my22 {
              padding-top: 1.21em!important;
+         }
+         .voorwaarden,
+         .privacy {
+             font-size: 0.5em;
          }
      }
      
