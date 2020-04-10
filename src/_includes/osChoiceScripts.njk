@@ -1,0 +1,28 @@
+
+    <!-- OS bepalen om de juist store te laten zien -->
+
+    <script src='./js/platform.js '></script>
+        <script src='./js/applink.js '></script>
+        <script>
+            let os = platform.os.family;
+            console.log(os);
+            switch (os) {
+                case 'Android':
+                    $('#iOS').hide();
+                    getAppLink('android');
+                    break;
+                case 'iOS':
+                    $('#Android').hide();
+                    getAppLink('iOS');
+                    break;
+                case 'macOS':
+                    $('#Android').hide();
+                    getAppLink('apple');
+                    break;
+                default:
+                    $('#iOS').show();
+                    $('#Android').show();
+                    getAppLink('other');
+                    break;
+            }
+        </script>
