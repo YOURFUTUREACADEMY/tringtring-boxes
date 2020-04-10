@@ -1,0 +1,23 @@
+{
+    "name": "TringTring",
+    "version": "1.0.0",
+    "description": "Project TringTring-Boxes\r Gebruik source om in te bouwen.",
+    "main": "index.js",
+    "scripts": {
+        "start": "eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YOURFUTUREACADEMY/tringtring-boxes.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes/issues"
+    },
+    "homepage": "https://github.com/YOURFUTUREACADEMY/tringtring-boxes#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.10.0"
+    }
+}
