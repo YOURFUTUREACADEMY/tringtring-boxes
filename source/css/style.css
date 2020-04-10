@@ -433,7 +433,15 @@
          }
          .voorwaarden,
          .privacy {
-             font-size: 0.5em;
+             font-size: 0.4em;
+         }
+         .voorwaarden>h1,
+         .privacy>h1,
+         .voorwaarden h2,
+         .privacy h2,
+         .voorwaarden>h6,
+         .privacy>h6 {
+             font-size: 1em;
          }
      }
      
