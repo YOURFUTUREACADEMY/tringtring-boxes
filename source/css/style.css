@@ -1,463 +1,542 @@
-     @font-face {
-         font-family: 'Avenir';
-         src: url('../fonts/AvenirLTStd-Book.otf');
-     }
+/* Font Styles */
 
-     @font-face {
-         font-family: 'VLNL-Berlagebrug-Gietijzer';
-         src: url('../fonts/VLNL-Berlagebrug-Gietijzer.ttf');
-     }
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Book.otf');
+}
 
-     @font-face {
-         font-family: 'AEH';
-         src: url('../fonts/AEH.ttf');
-     }
+@font-face {
+    font-family: 'VLNL-Berlagebrug-Gietijzer';
+    src: url('../fonts/VLNL-Berlagebrug-Gietijzer.ttf');
+}
 
-     body {
-         font-family: 'Avenir';
-         color: #5a5a5a;
-         font-size: 24px;
-     }
+@font-face {
+    font-family: 'AEH';
+    src: url('../fonts/AEH.ttf');
+}
 
-     h1,
-     h2,
-     h4,
-     h5,
-     .sectionH2,
-     button {
-         font-family: 'VLNL-Berlagebrug-Gietijzer';
-         color: #231e1e;
-     }
+/* end Font Styles */
 
-     button a:hover {
-         color: #231e1e;
-         text-decoration: none;
-     }
+/* global style */
 
-     a {
-         color: white;
-         font-family: 'Avenir';
-         margin: 0;
-         padding: 0;
-     }
+body {
+    font-family: 'Avenir';
+    color: #5a5a5a;
+    font-size: 24px;
+}
 
-     svg {
-         width: 25%;
-         margin-right: 1%!important;
-         padding-top: 5%;
-     }
+h1, h2, h4, h5, .sectionH2, button {
+    font-family: 'VLNL-Berlagebrug-Gietijzer';
+    color: #231e1e;
+}
 
-     .sectionH2 {
-         margin-bottom: 1.5rem;
-         line-height: 1.5;
-     }
+/* end global style */
 
-     .carousel-caption {
-         right: 5%;
-         left: 5%;
-         top: 50%;
-         bottom: auto;
-         transform: translateY(-50%);
-         color: #231e1e;
-     }
+/* nav */
 
-     .carousel-caption h1 {
-         font-size: 2.1em;
-     }
+.navLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0;
+}
 
-     .carousel-caption h2 {
-         font-size: 1.1rem;
-     }
+.navImg {
+    width: 25%;
+}
 
-     .white {
-         color: #fff;
-     }
+#navDesktop {
+    display: block;
+    padding: 0;
+}
 
-     .card {
-         border: none;
-         -ms-word-wrap: initial;
-     }
+#navResponsive {
+    display: none;
+}
 
-     .card-body {
-         padding-left: 0;
-         padding-right: 0;
-     }
+/* end nav */
 
-     .extra-style-AmsterdamCross {
-         font-family: 'AEH';
-         text-align: center;
-         color: #6e0f0a;
-         font-size: 0.8em;
-     }
+/* header */
+#crossCards {
+    width: 40%;
+}
 
-     .extra-style-red {
-         background: #ff2d0a;
-         color: white;
-         padding: 15px;
-         font-size: 1.1rem;
-         border-radius: 8px;
-     }
+.cross {
+    width: 4.5rem;
+    align-self: center;
+}
 
-     .extra-style-store {
-         background: #d7e0e5;
-         padding: 5%;
-     }
+.extra-style-AmsterdamCross {
+    font-family: 'AEH';
+    text-align: center;
+    color: #6e0f0a;
+    font-size: 0.8em;
+}
+/* end header */
+/* Content  */
 
-     .extra-style-logos {
-         width: 25%;
-         margin: auto auto;
-         background: white;
-         padding: 5%;
-         border-radius: 15%;
-     }
 
-     .storelogos {
-         margin: auto auto;
-         width: 60%;
-         justify-content: space-around;
-     }
+.sectionH2 {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
 
-     .extra-style-storelogos {
-         width: 40%;
-         margin-top: 5%
-     }
+.card {
+    border: none;
+    -ms-word-wrap: initial;
+}
 
-     .style-footer {
-         background: #ff2d0a;
-         padding-bottom: 1%;
-     }
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
 
-     .extra-style-footer,
-     .extra-style-footer a {
-         color: white;
-         text-decoration: none;
-         font-size: 1.3rem;
-         margin: 0;
-     }
+/* end content  */
 
-     .circle_indicator {
-         border-radius: 100%;
-         width: 20px !important;
-         height: 20px !important;
-         background-color: #fff !important;
-     }
+/* Button  */
 
-     .navLink {
-         text-decoration: none;
-         text-transform: uppercase;
-         color: #5a5a5a;
-         font-size: 1rem;
-         font-weight: 800;
-         padding: 0;
-     }
+button a:hover {
+    color: #231e1e;
+    text-decoration: none;
+}
 
-     .last-resp {
-         order: 12
-     }
+a {
+    color: white;
+    font-family: 'Avenir';
+    margin: 0;
+    padding: 0;
+}
 
-     .first-resp {
-         order: 1;
-     }
+.extra-style-red {
+    background: #ff2d0a;
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
 
-     .iosLogo {
-         margin-right: 1rem;
-     }
+.appBtn {
+    margin-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+}
 
-     .extra-style-storelogos {
-         width: 60%;
-         height: auto;
-     }
+/* end Button */
 
-     .appBtn {
-         margin-top: 1rem;
-         padding-left: 0;
-         padding-right: 0;
-     }
+/* App */
 
-     .cross {
-         width: 4.5rem;
-         align-self: center;
-     }
+.extra-style-store {
+    background: #d7e0e5;
+    padding: 5%;
+}
 
-     .navImg {
-         width: 25%;
-     }
+.extra-style-logos {
+    width: 25%;
+    margin: auto auto;
+    background: white;
+    padding: 5%;
+    border-radius: 15%;
+}
 
-     #crossCards {
-         width: 40%;
-     }
+.storelogos {
+    margin: auto auto;
+    width: 60%;
+    justify-content: space-around;
+}
 
-     #navDesktop {
-         display: block;
-         padding: 0;
-     }
+.extra-style-storelogos {
+    width: 40%;
+    margin-top: 5%;
+}
 
-     #navResponsive {
-         display: none;
-     }
+.iosLogo {
+    margin-right: 1rem;
+}
 
-     .squareImg {
-         height: 714px;
-         background-size: cover;
-     }
-     /* Carrousel 2 */
+.extra-style-storelogos {
+    width: 60%;
+    height: auto;
+}
 
-     #cImage2-0 {
-         background-image: url('../img/carrousel-2/TringTring_bezorgd-min.jpg');
-     }
+/* end app */
 
-     #cImage2-1 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
-     }
+/* footer */
 
-     #cImage2-2 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
-     }
+svg {
+    width: 25%;
+    margin-right: 1%!important;
+    padding-top: 5%;
+}
 
-     #cImage2-3 {
-         background-image: url('../img/fotoVerticaal_placeH.png');
-     }
-     /* Carrousel 2  */
-     /* Carrousel 3 */
+.style-footer {
+    background: #ff2d0a;
+    padding-bottom: 1%;
+}
 
-     #cImage3-0 {
-         background-image: url('../img/carrousel-3/Altstaandlogo-min.jpg');
-     }
+.extra-style-footer, .extra-style-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0;
+}
 
-     #cImage3-1 {
-         background-image: url('../img/carrousel-3/Moslogostaand1-min.jpg');
-     }
+/* end footer */
 
-     #cImage3-2 {
-         background-image: url('../img/carrousel-3/Pekellogostaand1-min.jpg');
-     }
+/* carousel-1 */
 
-     #cImage3-3 {
-         background-image: url('../img/carrousel-3/Toslogostaand1-min.jpg');
-     }
-     /* Carrousel 3 */
-     /* Carrousel 4  */
+.carousel-caption {
+    right: 5%;
+    left: 5%;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    color: #231e1e;
+}
 
-     #cImage4-0 {
-         background-image: url('../img/carrousel-4/leveranciers-min.jpg');
-         background-position: center;
-         background-size: contain;
-         background-repeat: no-repeat;
-     }
+.carousel-caption h1 {
+    font-size: 2.1em;
+}
 
-     #cImage4-1 {
-         background-image: url('../img/carrousel-4/zagtamsterdamproducts-min.jpg');
-         background-position: center;
-         background-size: contain;
-         background-repeat: no-repeat;
-     }
+.carousel-caption h2 {
+    font-size: 1.1rem;
+}
 
-     #cImage4-2 {
-         background-image: url('../img/carrousel-4/leverancierproduct-min.jpg');
-         background-position: center;
-         background-size: contain;
-         background-repeat: no-repeat;
-     }
-     /* #cImage4-3 {
+.white {
+    color: #fff;
+}
+
+.circle_indicator {
+    border-radius: 100%;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #fff !important;
+}
+
+/* end carousel-1 */
+
+/* carousel 2-3-4 image */
+
+.squareImg {
+    height: 714px;
+    background-size: cover;
+}
+
+/* end carousel 2-3-4 image */
+
+/* Carrousel 2 */
+
+#cImage2-0 {
+    background-image: url('../img/carrousel-2/TringTring_bezorgd-min.jpg');
+}
+
+#cImage2-1 {
+    background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage2-2 {
+    background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+#cImage2-3 {
+    background-image: url('../img/fotoVerticaal_placeH.png');
+}
+
+/* end Carrousel 2  */
+
+/* Carrousel 3 */
+
+.last-resp {
+    order: 12;
+}
+
+.first-resp {
+    order: 1;
+}
+
+#cImage3-0 {
+    background-image: url('../img/carrousel-3/Altstaandlogo-min.jpg');
+}
+
+#cImage3-1 {
+    background-image: url('../img/carrousel-3/Moslogostaand1-min.jpg');
+}
+
+#cImage3-2 {
+    background-image: url('../img/carrousel-3/Pekellogostaand1-min.jpg');
+}
+
+#cImage3-3 {
+    background-image: url('../img/carrousel-3/Toslogostaand1-min.jpg');
+}
+
+/* end Carrousel 3 */
+
+/* Carrousel 4  */
+
+#cImage4-0 {
+    background-image: url('../img/carrousel-4/leveranciers-min.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cImage4-1 {
+    background-image: url('../img/carrousel-4/zagtamsterdamproducts-min.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cImage4-2 {
+    background-image: url('../img/carrousel-4/leverancierproduct-min.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* #cImage4-3 {
          background-image: url('../img/carrousel-4/zagtamsterdamproducts-min.jpg');
          background-position: center;
          background-size: contain;
          background-repeat: no-repeat;
      } */
 
-     #carrousel-4 {
-         background-color: #FB3021;
-     }
-     /* Carrousel 4  */
+#carrousel-4 {
+    background-color: #FB3021;
+}
 
-     .respHide {
-         display: block;
-     }
-     /* Extra classes die lijken op de standaard bootstrap. Voor de duidelijkheid wel de zelfde notatie aangehouden */
+/* end Carrousel 4  */
 
-     .my22 {
-         padding-top: 2.21em!important;
-     }
+.respHide {
+    display: block;
+}
 
-     .mt-6 {
-         margin-top: 6rem;
-     }
+/* Extra classes die lijken op de standaard bootstrap.
+Voor de duidelijkheid wel de zelfde notatie aangehouden */
 
-     .pl-6 {
-         padding-left: 8% !important;
-     }
+.mY22 {
+    padding-top: 2.21em!important;
+}
 
-     .pr-6 {
-         padding-right: 8% !important;
-     }
-     /* CSS voor voorwaarden en privacy */
+.mt-6 {
+    margin-top: 6rem;
+}
 
-     .voorwaarden,
-     .privacy {
-         width: 80%;
-         margin: 0 auto;
-     }
+.pl-6 {
+    padding-left: 8% !important;
+}
 
-     .artikelitem {
-         color: #5a5a5a
-     }
+.pr-6 {
+    padding-right: 8% !important;
+}
+/* end Extra classes die lijken op de standaard bootstrap.
+Voor de duidelijkheid wel de zelfde notatie aangehouden */
 
-     ol.alpha {
-         list-style-type: lower-alpha;
-     }
+/* CSS voor voorwaarden en privacy */
 
-     ol.alphaHaak {
-         counter-reset: list;
-     }
+.voorwaarden,
+.privacy {
+    width: 80%;
+    margin: 0 auto;
+}
 
-     ol.alphaHaak>li {
-         list-style: none;
-         position: relative;
-     }
+.artikelitem {
+    color: #5a5a5a
+}
 
-     ol.alphaHaak>li:before {
-         counter-increment: list;
-         content: counter(list, lower-alpha) ") ";
-         position: absolute;
-         left: -1.1em;
-     }
-     /* CSS voor voorwaarden en privacy */
+ol.alpha {
+    list-style-type: lower-alpha;
+}
 
-     @media only screen and (max-device-width: 480px) {
-         h1 {
-             font-size: 1.2rem;
-         }
-         h2 {
-             font-size: 0.9rem;
-         }
-         h3 {
-             font-size: 1rem;
-         }
-         svg {
-             width: 25%;
-             margin-right: 1%!important;
-             padding: 0;
-         }
-         .cross {
-             width: 2rem;
-         }
-         .navLink {
-             font-size: 0.8rem;
-             padding: 0;
-         }
-         .navImg {
-             width: 25%;
-         }
-         #navResponsive {
-             display: flex;
-             flex-direction: column;
-         }
-         #navDesktop {
-             display: none;
-         }
-         .extra-style-footer {
-             font-size: 0.9rem;
-             text-align: left;
-         }
-         .col-mobile {
-             width: 49%;
-             margin: 0;
-         }
-         .last-resp {
-             order: 1;
-         }
-         .first-resp {
-             order: 12;
-         }
-         .sectionH2 {
-             font-size: 1.5rem;
-             font-weight: bold;
-         }
-         .storelogos {
-             padding: 0;
-         }
-         .extra-style-logos {
-             width: 50%;
-         }
-         .extra-style-storelogos {
-             width: 50%;
-             height: auto;
-         }
-         .iosLogo {
-             margin-right: 0;
-         }
-         .respMT {
-             margin-top: 2rem !important;
-             text-align: left;
-             font-size: 0.7em;
-         }
-         .circle_indicator {
-             width: 7.5px !important;
-             height: 7.5px !important;
-         }
-         .carousel-caption h1 {
-             font-size: 1.2rem;
-         }
-         .carousel-caption h2 {
-             font-size: 0.6rem;
-         }
-         #crossCards {
-             width: 100%;
-         }
-         .squareImg {
-             height: 300px;
-         }
-         .respHide {
-             display: none;
-         }
-         .col-4,
-         .card-body {
-             padding-right: 0!important;
-             padding-left: 0 !important;
-         }
-         .extra-style-red {
-             padding: 0.5em;
-             font-size: 0.9em;
-         }
-         .extra-style-AmsterdamCross {
-             font-size: 0.5em;
-         }
-         .appBtn {
-             margin-top: 0;
-         }
-         .py-5 {
-             padding-bottom: 2rem!important;
-             padding-top: 2rem !important;
-         }
-         .my22 {
-             padding-top: 1.21em!important;
-         }
-         .voorwaarden,
-         .privacy {
-             font-size: 0.4em;
-         }
-         .voorwaarden>h1,
-         .privacy>h1,
-         .voorwaarden h2,
-         .privacy h2,
-         .voorwaarden>h6,
-         .privacy>h6 {
-             font-size: 1em;
-         }
-     }
+ol.alphaHaak {
+    counter-reset: list;
+}
 
-     @media only screen and (min-device-width:481px) and (max-device-width: 768px) {
-         section,
-         .container {
-             margin: 0;
-         }
-     }
+ol.alphaHaak>li {
+    list-style: none;
+    position: relative;
+}
 
-     @media only screen and(max-width: 1279px) {
-         #crossCards {
-             width: 60%;
-         }
-         .card-.extra-style-AmsterdamCross {
-             font-size: 0.5re;
-         }
-     }
+ol.alphaHaak>li:before {
+    counter-increment: list;
+    content: counter(list, lower-alpha) ") ";
+    position: absolute;
+    left: -1.1em;
+}
+/* end CSS voor voorwaarden en privacy */
+
+
+/* Media Quary Mobile */
+@media only screen and (max-device-width: 480px) {
+    /* mobile global style */
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    /* end mobile global style */
+    
+    /* mobile nav */
+    .navLink {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    .navImg {
+        width: 25%;
+    }
+    #navResponsive {
+        display: flex;
+        flex-direction: column;
+    }
+    #navDesktop {
+        display: none;
+    }
+    /* end mobile nav */
+    /* mobile header */
+    .cross {
+        width: 2rem;
+    }
+    .extra-style-AmsterdamCross {
+        font-size: 0.5em;
+    }
+    .col-4, .card-body {
+        padding-right: 0!important;
+        padding-left: 0 !important;
+    }
+    #crossCards {
+        width: 100%;
+    }
+    /* end mobile header */
+    /* mobile Footer */
+    .extra-style-footer {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    .col-mobile {
+        width: 49%;
+        margin: 0;
+    }
+    svg {
+        width: 25%;
+        margin-right: 1%!important;
+        padding: 0;
+    }
+    /* end mobile Footer */
+
+    /* mobile content */
+    .last-resp {
+        order: 1;
+    }
+    .first-resp {
+        order: 12;
+    }
+    .sectionH2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    /* end mobile content */
+    /* mobile app */
+    .storelogos {
+        padding: 0;
+    }
+    .extra-style-logos {
+        width: 50%;
+    }
+    .extra-style-storelogos {
+        width: 50%;
+        height: auto;
+    }
+    .iosLogo {
+        margin-right: 0;
+    }
+    /* end mobile app */
+    /* mobile button */
+    .extra-style-red {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+    .appBtn {
+        margin-top: 0;
+    }
+    /* end mobile button */
+    /* mobile carousel */
+    .circle_indicator {
+        width: 7.5px !important;
+        height: 7.5px !important;
+    }
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption h2 {
+        font-size: 0.6rem;
+    }
+    .squareImg {
+        height: 300px;
+    }    
+    .respMT {
+        margin-top: 2rem !important;
+        text-align: left;
+        font-size: 0.7em;
+    }
+
+    .respHide {
+        display: none;
+    }
+    /* end mobile carousel */
+
+
+    /* mobile Extra classes die lijken op de standaard bootstrap. 
+    Voor de duidelijkheid wel de zelfde notatie aangehouden */
+    .py-5 {
+        padding-bottom: 2rem!important;
+        padding-top: 2rem !important;
+    }
+    .my22 {
+        padding-top: 1.21em!important;
+    }
+    /*end mobile mobile Extra classes die lijken op de standaard bootstrap. 
+    Voor de duidelijkheid wel de zelfde notatie aangehouden */
+
+    /*mobile CSS voor voorwaarden en privacy */
+
+    .voorwaarden,
+    .privacy {
+        font-size: 0.4em;
+    }
+    .voorwaarden>h1,
+    .privacy>h1,
+    .voorwaarden h2,
+    .privacy h2,
+    .voorwaarden>h6,
+    .privacy>h6 {
+        font-size: 1em;
+    }
+    /* end mobile CSS voor voorwaarden en privacy */
+
+}
+/* end Mobile Quary */
+
+/* Tablet fix */
+@media only screen and (min-device-width:481px) and (max-device-width: 768px) {
+    section, .container {
+        margin: 0;
+    }
+}
+/* end Tablet fix */
+
+/* desktop fix medium screen size */
+@media only screen and(max-width: 1279px) {
+    #crossCards {
+        width: 60%;
+    }
+    .card-.extra-style-AmsterdamCross {
+        font-size: 0.5rem;
+    }
+}
+/* end desktop fix medium screen size */
