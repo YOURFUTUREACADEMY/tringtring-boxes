@@ -7,7 +7,7 @@
     "cssmin": "cleancss  -o ./dist/css/style.css ./dist/css/style.css",
     "imagemin": "node buildTools/imagemin.js",
     "build": "eleventy  && npm run cssmin && npm run imagemin ",
-    "test": "eleventy --serve"
+    "test": "eleventy --output=dev --serve"
   },
   "repository": {
     "type": "git",
