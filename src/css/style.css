@@ -54,7 +54,6 @@ button {
 
 #navDesktop {
   display: block;
-  padding: 0;
 }
 
 #navResponsive {
@@ -65,7 +64,7 @@ button {
 
 /* header */
 #crossCards {
-  width: 40%;
+  width: 50%;
 }
 
 .cross {
@@ -322,7 +321,7 @@ svg {
 Voor de duidelijkheid wel de zelfde notatie aangehouden */
 
 .my-22 {
-  padding-top: 2.21em !important;
+  padding-top: 1.5em;
 }
 
 .mt-6 {
@@ -501,8 +500,8 @@ ol.alphaHaak > li:before {
     padding-bottom: 2rem !important;
     padding-top: 2rem !important;
   }
-  .my22 {
-    padding-top: 1.21em !important;
+  .my-22 {
+    padding-top: 0.5em;
   }
   /*end mobile mobile Extra classes die lijken op de standaard bootstrap.
     Voor de duidelijkheid wel de zelfde notatie aangehouden */
