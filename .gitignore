@@ -1,3 +1,9 @@
 node_modules
 package.json
-/dev/*
+/dev
+/dev/privacy-statement
+/dev/algemene-voorwaarden
+/dev/css
+/dev/fonts
+/dev/img
+/dev/js
