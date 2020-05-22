@@ -6,19 +6,18 @@ siteTitle: Food Market Amsterdam - Toegang tot de grootste markt van Amsterdam
     <head>
         {% include "head.njk" %}
         {% include "fbPixel.njk" %}
+        {% include "googleTagmanager_head.njk"%}
     </head>
 
     <body>
+        {% include "googleTagmanager_body.njk"%}}
         {% include "navigation.njk" %}
 
          {{content | safe }}
 
         {% include "footer.njk" %}
         {% include "bootstrapScripts.njk" %}
-        {% include "googleAnalytics.njk" %}
         {% include "osChoiceScripts.njk" %}
-
-
     </body>
 
     </html>
