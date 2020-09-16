@@ -220,31 +220,48 @@ svg {
 
 /* end carousel-1 */
 
-/* carousel 2-3-4 image */
+/* carousel 1-2-3-4 image */
 
 .squareImg {
   height: 714px;
   background-size: cover;
 }
 
-/* end carousel 2-3-4 image */
+/* end carousel 1-2-3-4 image */
 
+/* Carrousel 1 */
+#cImage1-0 {
+  background-image: url("../img/carrousel-2/TringTring_bezorgd.jpg");
+}
+
+#cImage1-1 {
+  background-image: url("../img/carrousel-3/Moslogostaand1.jpg");
+}
+
+#cImage1-2 {
+  background-image: url("../img/carrousel-3/Pekellogostaand1.jpg");
+}
+
+#cImage1-3 {
+  background-image: url("../img/carrousel-3/Toslogostaand1.jpg");
+}
+
+/* end Carrousel 1 */
 /* Carrousel 2 */
-
 #cImage2-0 {
   background-image: url("../img/carrousel-2/TringTring_bezorgd.jpg");
 }
 
 #cImage2-1 {
-  background-image: url("../img/fotoVerticaal_placeH.png");
+  background-image: url("../img/carrousel-3/Moslogostaand1.jpg");
 }
 
 #cImage2-2 {
-  background-image: url("../img/fotoVerticaal_placeH.png");
+  background-image: url("../img/carrousel-3/Pekellogostaand1.jpg");
 }
 
 #cImage2-3 {
-  background-image: url("../img/fotoVerticaal_placeH.png");
+  background-image: url("../img/carrousel-3/Toslogostaand1.jpg");
 }
 
 /* end Carrousel 2  */
