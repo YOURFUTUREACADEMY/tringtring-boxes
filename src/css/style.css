@@ -304,21 +304,21 @@ svg {
 #cImage4-0 {
   background-image: url("../img/carrousel-4/leveranciers.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #cImage4-1 {
   background-image: url("../img/carrousel-4/zagtamsterdamproducts.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #cImage4-2 {
   background-image: url("../img/carrousel-4/leverancierproduct.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -519,7 +519,6 @@ ol.alphaHaak > li:before {
     text-align: left;
     font-size: 0.7em;
   }
-
   .respHide {
     display: none;
   }
