@@ -339,6 +339,9 @@ svg {
 
 /* Extra classes die lijken op de standaard bootstrap.
 Voor de duidelijkheid wel de zelfde notatie aangehouden */
+.bg-own-color {
+  background:#dfdfdf;
+}
 
 .my-22 {
   padding-top: 1.5em;
