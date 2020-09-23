@@ -34,7 +34,13 @@ button {
   font-family: "VLNL-Berlagebrug-Gietijzer";
   color: #231e1e;
 }
-
+.titleH2 {
+ font-size: 3.0000022677168rem;
+}
+.titleH4 {
+  font-family: "Avenir";
+  font-size: 23px;
+}
 /* end global style */
 
 /* nav */
@@ -72,11 +78,8 @@ button {
   align-self: center;
 }
 
-.extra-style-AmsterdamCross {
-  font-family: "AEH";
-  text-align: center;
-  color: #6e0f0a;
-  font-size: 0.8em;
+.photo-title {
+  font-size: 1.1666675485565rem;
 }
 /* end header */
 /* Content  */
@@ -95,7 +98,7 @@ button {
   padding-left: 0;
   padding-right: 0;
 }
-
+#koopDirectVers,
 /* end content  */
 
 /* Button  */
