@@ -98,7 +98,9 @@ button {
   padding-left: 0;
   padding-right: 0;
 }
-#koopDirectVers,
+#koopDirectVers p, #versProducten p, #kookAlsChef p, #bestellingThuis p, #bezorggebied p {
+  font-size: 1.5000011338584rem;
+}
 /* end content  */
 
 /* Button  */
@@ -341,6 +343,11 @@ svg {
 Voor de duidelijkheid wel de zelfde notatie aangehouden */
 .bg-own-color {
   background:#dfdfdf;
+}
+.card-title-bold {
+  font-weight: 900;
+  font-family: "Avenir";
+  color: black;
 }
 
 .my-22 {
