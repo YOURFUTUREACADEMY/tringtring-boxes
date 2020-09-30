@@ -14,6 +14,10 @@
   font-family: "AEH";
   src: url("../fonts/AEH.ttf");
 }
+@font-face {
+  font-family: "Avenir-heavy";
+  src: url("../fonts/Avenir-LT-Std-85-Heavy_5177.ttf");
+}
 
 /* end Font Styles */
 
@@ -27,7 +31,6 @@ body {
 
 h1,
 h2,
-h4,
 h5,
 .sectionH2,
 button {
@@ -35,11 +38,10 @@ button {
   color: #231e1e;
 }
 .titleH2 {
- font-size: 3.0000022677168rem;
+  font-size: 3.0000022677168rem;
 }
 .titleH4 {
-  font-family: "Avenir";
-  font-size: 23px;
+  font-family: "Avenir-heavy";
 }
 /* end global style */
 
@@ -84,7 +86,8 @@ button {
 /* end header */
 /* Content  */
 
-.sectionH2 {
+.sectionH2,
+.headerH1 {
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
@@ -98,7 +101,11 @@ button {
   padding-left: 0;
   padding-right: 0;
 }
-#koopDirectVers p, #versProducten p, #kookAlsChef p, #bestellingThuis p, #bezorggebied p {
+#koopDirectVers p,
+#versProducten p,
+#kookAlsChef p,
+#bestellingThuis p,
+#bezorggebied p {
   font-size: 1.5000011338584rem;
 }
 /* end content  */
@@ -342,7 +349,7 @@ svg {
 /* Extra classes die lijken op de standaard bootstrap.
 Voor de duidelijkheid wel de zelfde notatie aangehouden */
 .bg-own-color {
-  background:#dfdfdf;
+  background: #dfdfdf;
 }
 .card-title-bold {
   font-weight: 900;
@@ -425,7 +432,6 @@ ol.alphaHaak > li:before {
   }
   #navResponsive {
     display: flex;
-    flex-direction: column;
   }
   #navDesktop {
     display: none;
@@ -464,14 +470,28 @@ ol.alphaHaak > li:before {
   /* end mobile Footer */
 
   /* mobile content */
+
+  .titleH4 {
+    font-size: 0.7em;
+  }
+
+  .photo-title {
+    font-size: 0.7rem;
+  }
   .last-resp {
     order: 1;
   }
   .first-resp {
     order: 12;
   }
+  .headerH1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
   .sectionH2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
 
