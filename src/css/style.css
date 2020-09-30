@@ -44,6 +44,9 @@ h2 {
 .titleH4 {
   font-family: "Avenir-heavy";
 }
+.card-title {
+  font-family: "Avenir-heavy";
+}
 /* end global style */
 
 /* nav */
@@ -407,10 +410,10 @@ ol.alphaHaak > li:before {
 @media only screen and (max-device-width: 480px) {
   /* mobile global style */
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.36rem;
   }
   h2 {
-    font-size: 0.9rem;
+    font-size: 1.26rem;
   }
   h3 {
     font-size: 1rem;
@@ -418,6 +421,7 @@ ol.alphaHaak > li:before {
   /* end mobile global style */
 
   /* mobile nav */
+
   .navLink {
     font-size: 0.8rem;
     padding: 0;
@@ -480,13 +484,11 @@ ol.alphaHaak > li:before {
     order: 12;
   }
   .headerH1 {
-    font-size: 1.36rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
 
   .sectionH2 {
-    font-size: 1.26rem;
     font-weight: bold;
   }
 
@@ -527,12 +529,17 @@ ol.alphaHaak > li:before {
     font-size: 0.6rem;
   }
   .squareImg {
-    height: 300px;
+    height: 336px;
   }
   .respMT {
     margin-top: 2rem !important;
     text-align: left;
     font-size: 0.7em;
+  }
+  #reactieKlanten .respMT,
+  #reactieKlanten .sectionH2 {
+    margin-top: 0 !important;
+    margin-bottom: 0;
   }
   .respHide {
     display: none;
