@@ -37,9 +37,10 @@ button {
   font-family: "VLNL-Berlagebrug-Gietijzer";
   color: #231e1e;
 }
-.titleH2 {
-  font-size: 3.0000022677168rem;
+h2 {
+  font-size: 2.2rem;
 }
+
 .titleH4 {
   font-family: "Avenir-heavy";
 }
@@ -479,13 +480,13 @@ ol.alphaHaak > li:before {
     order: 12;
   }
   .headerH1 {
-    font-size: 1.4rem;
+    font-size: 1.36rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
 
   .sectionH2 {
-    font-size: 1.1rem;
+    font-size: 1.26rem;
     font-weight: bold;
   }
 
