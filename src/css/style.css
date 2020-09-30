@@ -101,13 +101,7 @@ button {
   padding-left: 0;
   padding-right: 0;
 }
-#koopDirectVers p,
-#versProducten p,
-#kookAlsChef p,
-#bestellingThuis p,
-#bezorggebied p {
-  font-size: 1.5000011338584rem;
-}
+
 /* end content  */
 
 /* Button  */
