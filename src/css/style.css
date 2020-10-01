@@ -43,6 +43,8 @@ h2 {
 
 .titleH4 {
   font-family: "Avenir-heavy";
+  font-weight: bolder;
+  font-size: 30px;
 }
 .card-title {
   font-family: "Avenir-heavy";
@@ -108,13 +110,16 @@ h2 {
   padding-left: 0;
   padding-right: 0;
 }
-
+.font-color {
+  color:#58595b;
+  font-size: 1rem;
+}
 /* end content  */
 
 /* Button  */
 
 button a:hover {
-  color: #231e1e;
+  color: #58595b;
   text-decoration: none;
 }
 
@@ -354,10 +359,12 @@ Voor de duidelijkheid wel de zelfde notatie aangehouden */
 }
 .card-title-bold {
   font-weight: 900;
-  font-family: "Avenir";
+  font-family: "Avenir-heavy";
   color: black;
 }
-
+.card-text {
+  font-size: 1rem;
+}
 .my-22 {
   padding-top: 1.5em;
 }
@@ -490,6 +497,7 @@ ol.alphaHaak > li:before {
   .headerH1 {
     font-weight: bold;
     margin-bottom: 0.5rem;
+    font-size: 2rem
   }
 
   .sectionH2 {
