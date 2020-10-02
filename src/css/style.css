@@ -111,7 +111,7 @@ h2 {
   padding-right: 0;
 }
 .font-color {
-  color:#58595b;
+  color: #58595b;
   font-size: 1rem;
 }
 /* end content  */
@@ -136,6 +136,9 @@ a {
   padding: 15px;
   font-size: 1.1rem;
   border-radius: 8px;
+}
+.extra-style-red:hover {
+  color: #5a5a5a;
 }
 
 .appBtn {
@@ -423,7 +426,7 @@ ol.alphaHaak > li:before {
     font-size: 1.36rem;
   }
   h2 {
-    font-size: 1.26rem;
+    font-size: 1.2rem;
   }
   h3 {
     font-size: 1rem;
@@ -497,7 +500,6 @@ ol.alphaHaak > li:before {
   .headerH1 {
     font-weight: bold;
     margin-bottom: 0.5rem;
-    font-size: 2rem
   }
 
   .sectionH2 {
@@ -522,8 +524,8 @@ ol.alphaHaak > li:before {
   /* end mobile app */
   /* mobile button */
   .extra-style-red {
-    padding: 0.5em;
-    font-size: 0.9em;
+    padding: 0.6rem;
+    font-size: 1.1rem;
   }
   .appBtn {
     margin-top: 0;
